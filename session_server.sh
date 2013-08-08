@@ -19,8 +19,6 @@ SOMESTRING
 function home_page {
     echo $COOKIE_HEADERS
     echo ""
-    echo $USERNAME > /tmp/cgi_out.txt
-
     cat <<SOMESTRING
 <html>
   <body>
